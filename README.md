@@ -1,0 +1,1 @@
+# wp_gdpr_compliance_stop_hack
