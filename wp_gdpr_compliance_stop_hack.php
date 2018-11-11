@@ -8,6 +8,10 @@
 */
 function wp_gdpr_compliance_stop_hack( $new_value, $old_value ) {
 	
+	if ( ! function_exists( 'get_plugins' ) ) {
+        	require_once ABSPATH . 'wp-admin/includes/plugin.php';
+    	}
+	
 	$plugins = get_plugins();
 	// Walk
 	if( is_array( $plugins ) && count( $plugins ) > 0 ) {
