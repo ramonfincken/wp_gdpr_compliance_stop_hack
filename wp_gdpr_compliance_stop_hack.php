@@ -1,6 +1,11 @@
 <?php
 /**
-* Description: Stops update_options calls from wp-gdpr-compliance version 1.4.2 and lower. Install as mu-plugin if you are managing MANY sites or if you are an ISP/webhost. Best is to upgrade to 1.4.3 immediately.
+Plugin Name: WP GDPR Compliance stop hack
+Plugin URI: https://github.com/ramonfincken/wp_gdpr_compliance_stop_hack
+Description: Stops update_options calls from wp-gdpr-compliance version 1.4.2 and lower. Install as mu-plugin if you are managing MANY sites or if you are an ISP/webhost. Best is to upgrade to 1.4.3 immediately.
+Author: Ramon Fincken
+Version: 1.0.1
+Author URI: https://www.managedwphosting.nl/
 */
 
 /**
